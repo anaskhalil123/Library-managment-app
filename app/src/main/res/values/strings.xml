@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Library management system</string>
+    <string name="programingcategory">programming Category</string>
+    <string name="javanetbeans">Name: JavaNetbeans</string>
+    <string name="HaithamAndSalim">Author/s: Maher Abdel Rahman</string>
+    <string name="price">Price: 4$</string>
+    <string name="BorrowingPeriod">BorrowingPeriod: 5days</string>
+    <string name="todo">TODO</string>
+    <string name="i_want_the_book">I want the book</string>
+    <string name="lang1">English</string>
+    <string name="lang2">العربية</string>
+    <string name="signin">Sign In</string>
+    <string name="id">University ID</string>
+    <string name="password">Password</string>
+    <string name="fo_P">Forgot your password</string>
+    <string name="c_a">Create a New Account</string>
+    <string name="name_user">Name</string>
+    <string name="con_password">Confirm Password</string>
+    <string name="create_user">Create an Account</string>
+    <string name="logo">LOGO</string>
+    <string name="look_bag">Look at the Books inside the Bag</string>
+    <string name="text_Profile">User Profile</string>
+    <string name="title_view">Title View</string>
+    <string name="name">Name</string>
+    <string name="booktype">BookType</string>
+    <string name="search">search</string>
+    <string name="go_to_library">Go To Library</string>
+</resources>
