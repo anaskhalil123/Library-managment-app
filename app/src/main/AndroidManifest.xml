@@ -17,7 +17,7 @@
         </activity>
 
         <activity android:name=".Bag" />
-        <activity android:name=".profile">
+        <activity android:name=".Profile">
             <intent-filter>
                 <action android:name="android.intent.action.profile" />
                 <category android:name="android.intent.category.DEFAULT" />

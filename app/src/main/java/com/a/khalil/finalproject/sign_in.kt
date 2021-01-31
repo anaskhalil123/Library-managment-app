@@ -24,7 +24,7 @@ class sign_in : AppCompatActivity() {
             val student = StudentDatabase.getStudentData(uid)
             if (student != null && student.password.equals(password)) {
                 Toast.makeText(this, "Signin Sccessful", Toast.LENGTH_SHORT).show()
-                val intent = Intent(this, profile::class.java)
+                val intent = Intent(this, Profile::class.java)
                 intent.putExtra("UID", uid)
                 startActivity(intent)
             } else {

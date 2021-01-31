@@ -8,7 +8,7 @@ import com.a.khalil.finalproject.booksCategories.allBooks
 import kotlinx.android.synthetic.main.activity_user_profile.*
 
 /**/
-class profile : AppCompatActivity() {
+class Profile : AppCompatActivity() {
     lateinit var StudentDatabase: StudentDatabase
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -21,9 +21,9 @@ class profile : AppCompatActivity() {
 *  here i should not to  forget to if the getStudentData(1) get all the students that made, or get just one student.
 */
 
-        val studentid = intent.getLongExtra("UID", 0)
+        val studentId = intent.getLongExtra("UID", 0)
 
-        val student = StudentDatabase.getStudentData(studentid)
+        val student = StudentDatabase.getStudentData(studentId)
 
 
         if (student != null) {
