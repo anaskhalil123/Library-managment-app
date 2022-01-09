@@ -1,3 +1,3 @@
 # Library-managment-app
-I use android with kotlin in this small app :)
+I use android with kotlin in this app :)
 Library contains books
